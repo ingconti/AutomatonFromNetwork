@@ -1,4 +1,4 @@
-readme
+READ ME!
 
 to solve problem of a STATE AND network, try {
     this simple sample!
