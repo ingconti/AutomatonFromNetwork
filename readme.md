@@ -4,7 +4,7 @@ to solve problem of a STATE AND network, try {
     this simple sample!
 }
 
-// no catch!
+// no catch! ;)
 
 
 Our FSM describes a lunch.
@@ -20,18 +20,19 @@ States are:
 
 Allowed commnads are:
 
-G (GO!)
-"initial: char  of every state.
-"P" to pay.
+- "G" (GO!)
+- every initial char of every state, i.e. "E", "M"..."E"
+- "P" to pay.
 
 You cannot go back when specifying state.
 
 NOTE: you cannot finish lunch with out PAYING!
-So at any state you can pay.
+You can any state you are.
 
 --
 to test against console:
 
 /usr/bin/nc 127.0.0.1 1234
-and type in console: server will receive.
+and type in console: server will receive and send back some info. (in server more details about internal state)
+
 
