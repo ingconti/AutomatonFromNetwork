@@ -29,7 +29,7 @@ You cannot go back when specifying state.
 NOTE: you cannot finish lunch with out PAYING!
 You can pay in any state you are in.
 
-User cannot see why it cannoto go on.
+User cannot see why it cannot go on.
 
 --
 To test against console:
