@@ -16,12 +16,12 @@ States are:
     MAIN_COURSE,
     SECOND_COURSE,
     DESSERT,
-    END_OF_LUNCH;
+    THE_END_OF_LUNCH;
 
 Allowed commnads are:
 
 - "G" (GO!)
-- every initial char of every state, i.e. "E", "M"..."E"
+- every initial char of every state, i.e. "E", "M"..."T"
 - "P" to pay.
 
 You cannot go back when specifying state.
