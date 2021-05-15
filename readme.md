@@ -27,10 +27,11 @@ Allowed commnads are:
 You cannot go back when specifying state.
 
 NOTE: you cannot finish lunch with out PAYING!
-You can any state you are.
+You can pay in any state you are in.
 
+(user cannot see why it cannoto go on ..)
 --
-to test against console:
+To test against console:
 
 /usr/bin/nc 127.0.0.1 1234
 and type in console: server will receive and send back some info. (in server more details about internal state)
