@@ -27,8 +27,10 @@ public class NetworkAutomatonMain {
         // waits for data and reads it in until connection dies
         // readLine() blocks until the server receives a new line from client
         String s = "";
+
+        // NOTE: rhis coxe SHOULD go on Model, hre only for simpliciy!
         String stateString = "";
-        Boolean goOn;
+        Boolean goOn = false;
         try {
             while ((s = in.readLine()) != null) {
                 s = s.toUpperCase();
@@ -39,13 +41,14 @@ public class NetworkAutomatonMain {
                     automaton.setPaid();
                 }else{
                     DinnerPhase ph = DinnerPhase.fromString(s);
-                    automaton.evolveTo(ph);
+                    goOn = automaton.evolveTo(ph);
                 }
 
                 stateString = automaton.getState().toString();
 
-                System.out.println("new state: "+stateString);
-                out.println("new state: "+stateString);
+                stateString = goOn? (" new state: " + stateString) : " NOT MOVED FROM " + stateString;
+                System.out.println(stateString);
+                out.println(stateString);
 
             }// while
 
