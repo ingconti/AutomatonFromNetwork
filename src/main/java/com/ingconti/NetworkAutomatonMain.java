@@ -28,7 +28,7 @@ public class NetworkAutomatonMain {
         // readLine() blocks until the server receives a new line from client
         String s = "";
 
-        // NOTE: rhis coxe SHOULD go on Model, hre only for simpliciy!
+        // NOTE: this code SHOULD go in Model, we put here only for simplicity!
         String stateString = "";
         Boolean goOn = false;
         try {
