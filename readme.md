@@ -31,6 +31,11 @@ You can pay in any state you are in.
 
 User cannot see why he cannot go on.
 
+Note: form simplicity these commands are equal sto startes, (except "G").
+to be precise we should pay morwe attention: cmd shoudl be:
+"GoTo_E", "GoTo_M" and so on...
+
+
 --
 To test against console:
 
