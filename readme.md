@@ -18,7 +18,7 @@ States are:
     DESSERT,
     THE_END_OF_LUNCH;
 
-Allowed commnads are:
+Allowed commandds are:
 
 - "G" (GO!)
 - every initial char of every state, i.e. "E", "M"..."T"
@@ -26,7 +26,7 @@ Allowed commnads are:
 
 You cannot go back when specifying state.
 
-NOTE: you cannot finish lunch with out PAYING!
+NOTE: you cannot finish lunch without PAYING!
 You can pay in any state you are in.
 
 User cannot see why he cannot go on.

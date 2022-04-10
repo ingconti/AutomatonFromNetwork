@@ -26,10 +26,10 @@ public class NetworkAutomatonMain {
     static Boolean readLoop(BufferedReader in, PrintWriter out ){
         // waits for data and reads it in until connection dies
         // readLine() blocks until the server receives a new line from client
-        String s = "";
+        String s;
 
         // NOTE: this code SHOULD go in Model, we put here only for simplicity!
-        String stateString = "";
+        String stateString;
         Boolean goOn = false;
         try {
             while ((s = in.readLine()) != null) {
