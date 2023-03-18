@@ -1,7 +1,5 @@
 package com.ingconti;
 
-import java.util.Locale;
-
 public class Automaton {
 
     private Boolean paid = false;
@@ -28,7 +26,7 @@ public class Automaton {
 
 
     public Boolean evolve() {
-        if (canEvolve() == false)
+        if (!canEvolve())
             return false;
 
         int currOrd = state.ordinal();
@@ -42,15 +40,15 @@ public class Automaton {
     }
 
 
-    public Boolean evolveTo(DinnerPhase toSstate){
-        if (canEvolve() == false)
+    public Boolean evolveTo(DinnerPhase toState){
+        if (!canEvolve())
             return false;
 
-        int toOrd = toSstate.ordinal();
+        int toOrd = toState.ordinal();
         int currOrd = state.ordinal();
 
         if (toOrd>currOrd) {
-            state = toSstate;
+            state = toState;
             return true;
         }
         return false;

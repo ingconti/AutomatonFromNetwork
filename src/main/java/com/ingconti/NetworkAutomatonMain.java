@@ -13,6 +13,7 @@ import java.net.Socket;
 
   /usr/bin/nc 127.0.0.1 1234
  and type in console: server will receive.
+ see Readme.
 */
 
 

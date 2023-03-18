@@ -40,6 +40,7 @@ to be precise we should pay morwe attention: cmd shoudl be:
 To test against console:
 
 /usr/bin/nc 127.0.0.1 1234
-and type in console: server will receive and send back some info. (in server more details about internal state)
+and type in console: server will receive and send back some info. 
+(in server more details about internal state)
 
 
