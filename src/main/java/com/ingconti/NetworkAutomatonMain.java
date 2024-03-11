@@ -80,7 +80,8 @@ public class NetworkAutomatonMain {
         try {
             clientSocket = serverSocket.accept();
         } catch (IOException e) {
-            e.printStackTrace();
+            System.out.println("port already in use. pls change it!");
+            //e.printStackTrace();
         }
 
         try {
